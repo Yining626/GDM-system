@@ -34,8 +34,8 @@ def load_model():
 model, scaler, FEATURE_ORDER = load_model()
 
 # ---------- 界面 ----------
-st.title("🏥 妊娠期糖尿病风险预测系统")
-st.markdown("请填写以下基本信息（带 * 为必填）")
+st.title("🏥 妊娠期糖尿病风险筛查系统")
+st.markdown("")
 
 col1, col2 = st.columns(2)
 
